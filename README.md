@@ -12,7 +12,9 @@
 
 Maquetado web es: volcar a código HTML y CSS el proyecto web que vayamos a relizar.
 
-> Nota: <font style="font-size: 20px;">en HTML todos los elementos son contenedores</font>  
+---
+
+> Nota: en HTML todos los elementos son contenedores  
 > (excepto las interrupciones)
 
 ## Requisitos de software
