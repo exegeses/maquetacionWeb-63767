@@ -22,7 +22,32 @@ p{
     background-color: #2a2a2a;
 }
 
+ul{
+    list-style-type: square;
+}
+    #primero{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
 #disenio{
     background-color: #ffd18d;
     padding: 12px;
+}
+/* descendencia */
+    #disenio p{
+        background-color: #ffd18d;
+        color: #9c4a02;
+    }
+
+#programacion{
+    background-color: #c0ff8d;
+    padding: 12px;
+}
+    #programacion article{
+        color: #204501;
+    }
+
+.enlacePie{
+    color: #ffd18d;
 }
