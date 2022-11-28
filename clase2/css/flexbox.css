@@ -33,7 +33,7 @@ body{
 
     display: flex;
 
-        /* eje y - vertical */
+    /* eje y - vertical */
     /* align-items: start; /* predeterminado */
     /* align-items: end; /* debajo */
     align-items: center; 

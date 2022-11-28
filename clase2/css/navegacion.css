@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    /* solucionando problema de padding */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito, sans-serif;
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    background-color: #FF5E5E;
+    margin: auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;/* centrar en vertical */
+}
+    header img{
+        margin-left: 18px;
+    }
+    header nav a{
+        color: #fff;
+        text-decoration: none;
+        margin-right: 18px;
+    }
+
