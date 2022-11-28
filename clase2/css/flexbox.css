@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+*{
+    /* solucionando probel a de padding */
+    box-sizing: border-box;
+}
+
+body{
+    width: 800px;
+    margin: auto;
+    color: #424242;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+}
+
+#contenedor{
+    background-color: #ccc;
+    height: 500px;
+
+    display: flex;
+    /* eje x - horizontal */
+    /* justify-content: start; /* predeterminado */
+    /* justify-content: center; */
+    /* justify-content: end; /* de lado derecho */
+
+    /* espacio sobrante */
+    justify-content: space-between;
+}
+
+#contenedor2{
+    background-color: #ccc;
+    height: 500px;
+
+    display: flex;
+
+        /* eje y - vertical */
+    /* align-items: start; /* predeterminado */
+    /* align-items: end; /* debajo */
+    align-items: center; 
+}
+    article{
+        width: 200px;
+        height: 150px;
+        background-color: rgb(148, 252, 200);
+    }

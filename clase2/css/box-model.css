@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+*{
+    /* solucionando probel a de padding */
+    box-sizing: border-box;
+}
+
+body{
+    color: #424242;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+}
+
+#verde{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(95, 255, 167);
+
+    margin-bottom: 24px;
+    margin-left:58px;
+}
+#naranja{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 175, 95);
+    /* centrar una caja */
+        margin: auto;
+}
+
+#violeta{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(207, 140, 251);
+    padding: 32px;
+}
+#gris{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(200, 200, 200);
+}
