@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* globales */
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    height: 100px;
+    width: 1100px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header a{
+        color: #3C3C3C;
+    }
+    header a img{
+        vertical-align: middle;
+        margin-right: 12px;
+    }
+
+    /* nav */
+    header nav a{
+        padding: 10px;
+    }
+
+/*### hero banner ###*/
+#hero-banner{
+    height: 500px;
+    background-image: url(../imgs/hero-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 center;/* horiz  vertical */
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 62px;
+}
+
+    h1{
+        margin-left: 62px;
+        font-size: 32px;
+        font-weight: 600;
+        color: white;
+    }
+
+/*### Promos ###*/
+#promos{
+    width: 1100px;
+    margin: auto;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #dac17e;
+}
+
+    #promos article{
+        width: 285px;
+        background-color: #ffffff;
+    }
