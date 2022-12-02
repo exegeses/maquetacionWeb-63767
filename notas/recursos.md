@@ -9,3 +9,8 @@
 ## Edición de imagenes
 > Image Resizer  https://imageresizer.com/es  
 > Photoshop  https://creativecloud.adobe.com/cc/photoshop  
+
+
+## Manuales, referencia y tutoriales
+
+> Proyecto Mozilla  https://developer.mozilla.org/es/

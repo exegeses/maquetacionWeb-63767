@@ -10,6 +10,7 @@
 body{
     font-family: Raleway, sans-serif;
     font-size: 16px;
+    font-weight: 300;
     color: #3c3c3c;
 }
 a{
@@ -71,10 +72,59 @@ header{
     justify-content: space-evenly;
     align-items: center;
 
-    background-color: #dac17e;
+    background-color: #FFF8EF;
 }
 
     #promos article{
         width: 285px;
         background-color: #ffffff;
     }
+    #promos h2{
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    #promos article p {
+        margin-left: 30px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+    }
+
+/*### destinos ###*/
+#destinos{
+    width: 1100px;
+    margin: 62px auto 0px auto;
+}
+    #destinos article{
+        height: 350px;
+        margin-bottom: 32px;
+        display: flex;
+    }
+    #destinos article div{
+        width: 340px;
+        margin: auto;
+    }
+
+    #destinos article div h2{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    #destinos article div p{
+        margin-bottom: 24px;
+    }
+    #destinos article div a{
+            display: block;
+            width: 140px;
+            margin: auto;
+            padding: 8px 0px;
+            text-align: center;
+            border: 1px solid #3c3c3c;
+            border-radius: 12px;
+            color: #3C3C3C;
+            transition: 500ms;
+    }
+    #destinos article div a:hover{
+        color: #fff;
+        background-color: #3c3c3c;
+    }
+

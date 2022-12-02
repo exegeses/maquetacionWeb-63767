@@ -1,0 +1,14 @@
+table{
+    border: 1px solid #637457;
+}
+
+th, td{
+    width: 200px;
+    border: 1px solid #204501;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
