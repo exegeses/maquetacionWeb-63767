@@ -1,0 +1,9 @@
+#foto{
+    width: 550px;
+    height: 350px;
+    transition: 500ms;
+}
+#foto:hover{
+    width: 580px;
+    height: 370px;
+}
