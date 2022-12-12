@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Permanent Marker, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    height: 150px;
+    color: #fff;
+    background-color: #0b0b0b;
+}
+    #lipset{
+        float: left;
+        color: #fff;
+    }
+    #lipset img{
+            vertical-align: middle;
+            margin-right: 5px;
+            width: 100px;
+        }
+    footer div{
+        text-align: center;
+    }
+        footer div img{
+            height: 32px;
+            margin: 8px;
+        }
