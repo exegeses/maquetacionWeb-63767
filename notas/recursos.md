@@ -8,6 +8,8 @@
 > Ionicons  https://ionic.io/ionicons  
 > HeroIcons  https://heroicons.dev/  
 > Bootstrap Icons https://icons.getbootstrap.com/  
+> Material Symbols  https://fonts.google.com/icons
+
 
 
 ## Emmet

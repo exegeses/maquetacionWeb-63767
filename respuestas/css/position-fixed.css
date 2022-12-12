@@ -1,0 +1,33 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+    nav{
+        height: 100px;
+        line-height: 100px;
+        width: 700px;
+        margin: auto;
+        text-align: center;
+    }
+
+#verde,
+#naranja,
+#celeste,
+#violeta,
+#rojo{
+    height: 450px;
+}
+#verde{
+    background-color: #bbf8d5;
+}
+#naranja{
+    background-color: #f8ddbb;
+}
+#celeste{
+    background-color: #bbf8f2;
+}#violeta{
+    background-color: #d6bbf8;
+}#rojo{
+    background-color: #f8bbbb;
+}

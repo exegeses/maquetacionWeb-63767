@@ -1,0 +1,30 @@
+body{
+    color: #fff;
+    background-image: url(../imgs/bg-kioto.jpg);
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+
+#verde,
+#naranja,
+#celeste,
+#violeta{
+    width: 160px;
+    margin: 300px auto;
+    height: 72px;
+
+}
+#verde{
+    background-color: rgba(187, 248, 213, 0.3);
+}
+#naranja{
+    background-color: rgba(248, 221, 187, 0.3);
+}
+#celeste{
+    background-color: rgba(187, 248, 242, 0.3);
+}#violeta{
+     background-color: rgba(214, 187, 248, 0.3);
+ }
