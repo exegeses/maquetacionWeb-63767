@@ -1,0 +1,31 @@
+section{
+    height: 200px;
+    background-color: #600c6b;
+}
+@media( min-width:640px ){
+    section{
+        background-color: #600c6b;
+    }
+}
+@media( min-width:768px ){
+    section{
+        background-color: #83248e;
+    }
+}
+@media( min-width:1024px ){
+    section{
+        background-color: #9a43a3;
+    }
+    section article{
+        height: 100px;
+        width: 200px;
+        margin: auto;
+        background-color: #fff;
+    }
+}
+@media( min-width:1440px ){
+    section{
+        background-color: #dc85e6;
+    }
+}
+
