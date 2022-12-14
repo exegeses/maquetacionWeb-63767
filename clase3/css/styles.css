@@ -214,6 +214,61 @@ header{
         width: 100%;
         padding: 8px;
         margin: 8px 0px;
+        font-family: Raleway, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #3c3c3c;
         border: 1px solid #EC7D54;
         background-color: #F8A281;
+    }
+    /* texto del placeholder */
+    #contacto form input::placeholder,
+    #contacto form textarea::placeholder{
+        color: #fff;
+    }
+    #contacto form textarea{
+        height: 152px;
+        resize: none;
+    }
+
+    #contacto button{
+        /*display: block;*/
+        width: 212px;
+        padding: 8px 0px;
+        border: 1px solid #CD5F35;
+        border-radius: 8px;
+        color: #3C3C3C;
+        font-family: Raleway, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #3c3c3c;
+        transition: 500ms;
+        cursor: pointer;
+    }
+
+    #contacto button:hover{
+        color: #fff;
+        background-color: #db7952;
+    }
+    
+/*### footer ###*/
+footer{
+    height: 160px;
+    background-color: #3C3C3C;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer a{
+        color: #fff;
+    }
+    footer a img{
+        vertical-align: middle;
+        margin: 0px 8px;
+    }
+    footer div a{
+        font-size: 32px;
+        margin: 0px 16px;
     }
