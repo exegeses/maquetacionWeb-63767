@@ -133,11 +133,16 @@
 
         </section>
         <section id="contacto">
-            <form action="">
+            <form action="contacto.php" method="post">
                 <input type="text" name="nombre" placeholder="Nombre:">
-                <input type="email" name="email" placeholder="Email:">
+                <input type="text" name="email" placeholder="Email:">
                 <textarea name="consulta" placeholder="Consulta:"></textarea>
                 <button>Enviar</button>
+                <div id="mensajes">
+                    <span id="errNombre"></span>
+                    <span id="errEmail"></span>
+                    <span id="errConsulta"></span>
+                </div>
             </form>
         </section>
 
@@ -162,6 +167,6 @@
         </div>
     </footer>
 
-
+    <script src="js/formulario.js"></script>
 </body>
 </html>

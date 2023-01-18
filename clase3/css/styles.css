@@ -216,8 +216,8 @@ header{
         margin: 8px 0px;
         font-family: Raleway, sans-serif;
         font-weight: 300;
-        font-size: 16px;
-        color: #3c3c3c;
+        font-size: 18px;
+        color: #fff;
         border: 1px solid #EC7D54;
         background-color: #F8A281;
     }
@@ -250,6 +250,16 @@ header{
         color: #fff;
         background-color: #db7952;
     }
+
+    #mensajes{
+        margin-top: 12px;
+    }
+        #mensajes span{
+            display: block;
+            font-size: 18px;
+            color: #fff;
+        }
+
     
 /*### footer ###*/
 footer{
