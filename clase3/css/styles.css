@@ -259,7 +259,14 @@ header{
             font-size: 18px;
             color: #fff;
         }
-
+/* mensaje luego de enviar el email */
+    #mensaje{
+        display: block;
+        margin: auto;
+        color: #fff;
+        font-size: 20px;
+    }
+        
     
 /*### footer ###*/
 footer{
